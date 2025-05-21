@@ -4,6 +4,8 @@ body {
   object-position: center;
   object-fit: fill;
   background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 button {
