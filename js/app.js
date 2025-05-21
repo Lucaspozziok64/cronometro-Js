@@ -25,3 +25,17 @@ function iniciar() {
 function parar() {
   clearInterval(intervalId)
 }
+
+function reset() {
+  clearInterval(intervalId);
+  document.querySelector(".fs-1").textContent = "00:00:00.000";
+  startTime = null;
+}
+
+const btnIniciar = document.getElementById('btnIniciar');
+const btnPausar = document.getElementById('btnPausar');
+const btnReset = document.getElementById('btnReset');
+
+btnIniciar.addEventListener('click0', iniciar);
+btnPausar.addEventListener('click', parar);
+btnReset.addEventListener('click', reset);
