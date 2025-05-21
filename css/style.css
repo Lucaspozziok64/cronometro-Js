@@ -1,0 +1,21 @@
+body {
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/an-image-of-a-stopwatch-powerpoint-background_81ed996b4b__960_540.jpg");
+  background-repeat: no-repeat;
+  object-position: center;
+  object-fit: fill;
+  background-size: cover;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+@media (max-width: 1235px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+}
