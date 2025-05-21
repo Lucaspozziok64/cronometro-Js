@@ -21,3 +21,7 @@ function iniciar() {
   }, 1); // Actualizar cada 1 milisegundo
   return intervalId;
 }
+
+function parar() {
+  clearInterval(intervalId)
+}
